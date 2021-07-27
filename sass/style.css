@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body .card-container .card-container-card3 button, body .card-container .card-container-card2 button, body .card-container .card-container-card1 button {
+  font-family: "Lexend Deca", sans-serif;
+  border-style: none;
+  border: 2px solid;
+  border-radius: 25px;
+  border-color: #f3f2f1;
+  width: 10rem;
+  padding: 1rem;
+  color: #f3f2f1;
+}
+body .card-container .card-container-card3 button:hover, body .card-container .card-container-card2 button:hover, body .card-container .card-container-card1 button:hover {
+  color: #f3f2f1;
+  background-color: #f3f2f1;
+}
+
+body .card-container .card-container-card3, body .card-container .card-container-card2, body .card-container .card-container-card1 {
+  padding: 5rem;
+}
+body .card-container .card-container-card3 header, body .card-container .card-container-card2 header, body .card-container .card-container-card1 header {
+  padding-top: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+body .card-container .card-container-card3 section, body .card-container .card-container-card2 section, body .card-container .card-container-card1 section {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 2rem 0 0 0;
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #f3f2f1;
+}
+body .card-container {
+  margin: 10rem auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 900px) {
+  body .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+body .card-container .card-container-card1 {
+  background-color: #e18527;
+  border-radius: 10px 0 0 10px;
+}
+@media screen and (max-width: 900px) {
+  body .card-container .card-container-card1 {
+    border-radius: 10px 10px 0 0;
+  }
+}
+body .card-container .card-container-card1 button {
+  background-color: #e18527;
+}
+body .card-container .card-container-card1 button:hover {
+  color: #e18527;
+}
+body .card-container .card-container-card2 {
+  background-color: #016972;
+}
+body .card-container .card-container-card2 button {
+  background-color: #016972;
+}
+body .card-container .card-container-card2 button:hover {
+  color: #016972;
+}
+body .card-container .card-container-card3 {
+  background-color: #065758;
+  border-radius: 0 10px 10px 0;
+}
+@media screen and (max-width: 900px) {
+  body .card-container .card-container-card3 {
+    border-radius: 0 0 10px 10px;
+  }
+}
+body .card-container .card-container-card3 button {
+  background-color: #065758;
+}
+body .card-container .card-container-card3 button:hover {
+  color: #065758;
+}
+body .card-container footer {
+  padding-top: 2rem;
+}/*# sourceMappingURL=style.css.map */
