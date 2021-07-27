@@ -30,7 +30,7 @@ $color-card3: #065758;
 %card-shared {
   padding: 5rem;
 
-  header {
+  h2 {
     padding-top: 2rem;
     font-family: $font-family-header;
     font-weight: 600;
@@ -38,7 +38,7 @@ $color-card3: #065758;
     text-transform: uppercase;
   }
 
-  section {
+  .card-container-description {
     font-family: $font-family-section;
     padding: 2rem 0 0 0;
     line-height: 2;
@@ -104,7 +104,7 @@ body {
       }
     }
 
-    footer {
+    .card-container-bottom-section {
       padding-top: 2rem;
     }
   }
