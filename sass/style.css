@@ -44,6 +44,7 @@ body .card-container {
 @media screen and (max-width: 900px) {
   body .card-container {
     grid-template-columns: repeat(1, 1fr);
+    width: 90%;
   }
 }
 body .card-container .card-container-card1 {
